@@ -4,6 +4,10 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 		<title>LushWorld Designs</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
@@ -11,53 +15,57 @@
 		<!-- Content goes here -->
 		<h1 class=hidden>Home</h1>
 		<div id=container>
-			<header>
-				<!-- <a href="#"><img></a> -->
+			<header id="mainHeader">
+				<div id="logo">
+						<img src="images/home/Logo.png" width="45" height="45" alt="Logo">
+				</div><!--end logo-->
 				<nav id="mainNav">
 					<h2 class="hidden">Main Navigation</h2>
-					<button id="button"></button>
-					<div id="burgerCon">
-						<ul id="burgerMenu">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Portfolio</a></li>
+						<ul id="navBar">
+							<li class="liNav"><a class="link" href="portfolio.html">Portfolio</a></li>
+							<li class="liNav"><a class="link" href="contact.html">Contact</a></li>
+							<li class="liNav"><a class="link" href="about.html">About</a></li>
+							<li class="liNav"><a class="link" href="#">Home</a></li>
 						</ul>
-					</div>
 				</nav>
 			</header>
 			<main>
 				<section id="homeIntro">
-					<h2>LushWorld Designs</h2>
-					<p>First impressions are everything. Take the next step and bring your business to life with stunning and inspiring brand design.</p>
+					<img id="imagecover" src="images/home/marketing.jpg" alt="Cover image">
+					<div class="imagecovertext">
+						<h2>LushWorld Designs</h2>
+						<p>First impressions are everything. Take the next step and bring your business to life with stunning and inspiring brand design.</p>
+					</div>
+
 				</section>
 				<section id="globalMarketing">
-					<!-- <img> -->
-					<h3>Global Marketing</h3>
-					<p>Every brand has a story to tell. It’s time to share yours with the world. It is our mission to showcase your business while increasing your brand’s awareness, expanding your outreach, building connections and creating new possibilities.</p>
+					<img id="earthimg" src="images/home/earth.png" alt="earth image">
+					<div class="earthtext">
+						<h3>Global Marketing</h3>
+						<p>Every brand has a story to tell. It’s time to share yours with the world. It is our mission to showcase your business while increasing your brand’s awareness, expanding your outreach, building connections and creating new possibilities.</p>
+					</div>
 				</section>
 				<section id=socialMedia>
-					<h3>Social Media</h3>
-					<p>Sharing your business on social media is just one step towards spreading your story. Are you ready to take the leap?</p>
+					<div class="smartphonetext">
+						<h3>Social Media</h3>
+						<p>Sharing your business on social media is just one step towards spreading your story. Are you ready to take the leap?</p>
+					</div>
+					<img id="smartphoneimg" src="images/home/smartphone.png" alt="smartphone image">
 				</section>
 				<section id="portfolio">
 					<h3>Our Portfolio</h3>
-					<!-- <img>
-					<img> -->
+					<img id="portfolioleft" src="images/home/webpage2.jpg" alt="portfolio left image">
+					<img id="portfolioright" src="images/home/webpage.jpg" alt="portfolio right image">
 				</section>
 			</main>
-			<footer>
-				<nav id="footerNav">
-					<h2 class="hidden">Footer Navigation</h2>
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Portfolio</a></li>
-					</ul>
-				</nav>
-				<p>©LushWorld Designs</p>
-			</footer>
+			<footer id="mainFooter">
+					<h2 class="hidden">Footer</h2>
+					<div id="footerNav">
+							<h3 class="hidden">Map Site</h3>
+							<p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="portfolio.html">Portfolio</a></p>
+					</div><!--end FooterNav-->
+					<div id="copyRight"><p> &copy; LushWorld 2021 </p></div><!--end Copyright-->
+			</footer><!--end mainFooter-->
 		</div>
 
 		<script src="js/main.js"></script>
