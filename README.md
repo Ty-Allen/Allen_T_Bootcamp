@@ -1,7 +1,7 @@
-![](images/hero.jpg) <!--logo/hero image-->
+![](images/readmehero.jpg) <!--logo/hero image-->
 
 # LushWorld Designs
-*Insert Tagline*
+Design Agency
 
 ## Creation. Innovation. Inspiration.
 LushWorld Designs is a design agency that assists businesses in making a powerful first impression and values the importance of global outreach. Through digital, print, branding and product design services, the company strives to combine passion with innovative creation to boldly establish a business’ brand identity and help clients achieve their goals.
