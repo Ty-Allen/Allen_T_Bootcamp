@@ -498,6 +498,7 @@
 /*DESKTOP LAYOUT*/
 
 @media screen and (min-width: 1200px) {
+
 	#mainHeader
 	{
 		margin-top: 10px;
@@ -688,7 +689,7 @@
 	.earthtext{
 		font-family: 'Quicksand', sans-serif;
 		margin-left: 37%;
-		margin-top: -525px;
+		margin-top: -625px;
 		background-color: #A4BCA3;
 	  width: 60%;
 	  height: 400px;
