@@ -1,4 +1,742 @@
+
 .hidden
 {
 	display: none;
+}
+
+.container {
+	min-width: 375px;
+	max-width: 1200px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#mainHeader
+{
+	margin-top: 20px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#logo
+{
+	width: 50px;
+	height: 50px;
+}
+
+.navBar {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	height: 50px;
+  	overflow: hidden;
+}
+
+/*Nav bar - Style */
+
+/*Id's*/
+
+.logo {
+	justify-content: center;
+	width: 250px;
+	height: 50px;
+}
+
+
+#mainNav
+{
+	width: 100%;
+}
+
+/*Classes*/
+
+.liNav {
+  float: right;
+  height: 50px;
+}
+
+
+.liNav .link {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 18px;
+}
+
+
+.liNav .link:hover {
+  background-color: #ddd;
+}
+
+/*Footer - Style*/
+
+/*Id's*/
+
+#mainFooter
+{
+	margin-top: 20px;
+	padding: 15px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-start;
+	background-color: #687399;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+}
+
+
+#footerNav
+{
+	width: 500px;
+	color: white;
+
+}
+
+
+#footerNav h2
+{
+	font-size: 12px;
+}
+
+
+#footerNav a
+{
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+}
+
+
+#copyRight
+{
+
+	text-align: center;
+	margin-left: auto;
+	width: 310px;
+}
+
+/* Homew page */
+
+/*ID's*/
+
+#imagecover {
+	width: 100%;
+	height: 30%;
+}
+
+#earthimg {
+	margin-left: -60px;
+	width: 60%;
+	height: 240px;
+}
+
+#smartphoneimg {
+	margin-left: 59%;
+	margin-top: -225px;
+	width: 45%;
+	height: 240px;
+}
+
+#portfolio {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#portfolioleft {
+	margin-top: 5%;
+	width: 70%;
+	border-radius: 15px;
+	margin-left: -25%;
+	border: solid 1px #DDD;
+}
+
+#portfolioright {
+	width: 70%;
+	border-radius: 15px;
+	margin-top: -100px;
+	margin-left: 25%;
+	border: solid 1px #DDD;
+}
+
+/*Classes*/
+
+.imagecovertext {
+	margin-top: -200px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.imagecovertext h2 {
+	margin-top: 10%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.imagecovertext p {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.earthtext{
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 37%;
+	margin-top: -200px;
+	background-color: #A4BCA3;
+  width: 60%;
+  height: 150px;
+  border-radius: 15px;
+  text-align: center;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.earthtext h3 {
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.earthtext p {
+	font-weight: lighter;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.smartphonetext {
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 5%;
+	background-color: #A4BCA3;
+  width: 60%;
+  height: 150px;
+  border-radius: 15px;
+  text-align: center;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.smartphonetext h3 {
+	padding-top: 15%;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.smartphonetext  p {
+	font-weight: lighter;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*TABLET LAYOUT*/
+
+@media screen and (min-width: 1023px) {
+
+	#mainHeader
+	{
+		margin-top: 10px;
+		padding-bottom: 10px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+		border-bottom: solid 1px #DDD;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: normal;
+		font-size: 25px;
+	}
+
+	#logo
+	{
+		margin-left: 20px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.navBar {
+		list-style-type: none;
+	  	margin: 0;
+	  	padding: 0;
+	  	height: 50px;
+	  	overflow: hidden;
+	}
+
+	/*Nav bar - Style */
+
+	/*Id's*/
+
+	.logo {
+		justify-content: center;
+		width: 250px;
+		height: 50px;
+	}
+
+
+	#mainNav
+	{
+		width: 100%;
+	}
+
+	/*Classes*/
+
+	.liNav {
+	  float: right;
+	  height: 50px;
+	}
+
+
+	.liNav .link {
+	  display: block;
+	  color: #666;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  height: 25px;
+	}
+
+
+	.liNav .link:hover {
+	  background-color: #ddd;
+	}
+
+	/*Footer - Style*/
+
+	/*Id's*/
+
+	#mainFooter
+	{
+		margin-top: 20px;
+		padding: 15px;
+		padding-left: 10px;
+		margin-bottom: 0px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+		background-color: #687399;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 25px;
+	}
+
+
+	#footerNav
+	{
+		width: 500px;
+		color: white;
+
+	}
+
+
+	#footerNav h2
+	{
+		font-size: 25px;
+	}
+
+
+	#footerNav a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: white;
+	}
+
+
+	#copyRight
+	{
+
+		text-align: center;
+		margin-left: auto;
+		width: 310px;
+	}
+
+	/* Homew page */
+
+	/*ID's*/
+
+	#imagecover {
+		width: 100%;
+		height: 30%;
+	}
+
+	#earthimg {
+		margin-left: -100px;
+		width: 55%;
+		height: 550px;
+	}
+
+	#smartphoneimg {
+		margin-left: 58%;
+		margin-top: -475px;
+		width: 45%;
+		height: 600px;
+	}
+
+	#portfolio {
+		text-align: center;
+		font-weight: bold;
+		font-size: 70px;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	#portfolioleft {
+		margin-top: 5%;
+		width: 70%;
+		border-radius: 15px;
+		margin-left: -25%;
+		border: solid 1px #DDD;
+	}
+
+	#portfolioright {
+		width: 70%;
+		border-radius: 15px;
+		margin-top: -300px;
+		margin-left: 25%;
+		border: solid 1px #DDD;
+	}
+
+	/*Classes*/
+
+	.imagecovertext {
+		margin-top: -600px;
+		padding: 10%;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	.imagecovertext h2 {
+		margin-top: 10%;
+		text-align: center;
+		font-size: 70px;
+		font-weight: bold;
+	}
+
+	.imagecovertext p {
+		margin-top: 20px;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 40px;
+		text-align: center;
+		font-size: 40px;
+		font-weight: lighter;
+	}
+
+	.earthtext{
+		font-family: 'Quicksand', sans-serif;
+		margin-left: 37%;
+		margin-top: -425px;
+		background-color: #A4BCA3;
+	  width: 60%;
+	  height: 300px;
+	  border-radius: 15px;
+	  text-align: center;
+		color: white;
+		margin-bottom: 30px;
+	}
+
+	.earthtext h3 {
+		padding-top: 40px;
+		font-weight: bold;
+		font-size: 50px;
+	}
+
+	.earthtext p {
+		font-weight: lighter;
+		font-size: 25px;
+		padding-top: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.smartphonetext {
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 10%;
+		margin-left: 5%;
+		padding: 10px;
+		background-color: #A4BCA3;
+	  width: 60%;
+	  height: 300px;
+	  border-radius: 15px;
+	  text-align: center;
+		color: white;
+		margin-bottom: 30px;
+	}
+
+	.smartphonetext h3 {
+		padding-top: 70px;
+		font-weight: bold;
+		font-size: 50px;
+	}
+
+	.smartphonetext  p {
+		font-weight: lighter;
+		font-size: 25px;
+		padding-top: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+/*DESKTOP LAYOUT*/
+
+@media screen and (min-width: 1200px) {
+	#mainHeader
+	{
+		margin-top: 10px;
+		padding-bottom: 10px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+		border-bottom: solid 1px #DDD;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: normal;
+		font-size: 25px;
+	}
+
+	#logo
+	{
+		margin-left: 20px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.navBar {
+		list-style-type: none;
+	  	margin: 0;
+	  	padding: 0;
+	  	height: 50px;
+	  	overflow: hidden;
+	}
+
+	/*Nav bar - Style */
+
+	/*Id's*/
+
+	.logo {
+		justify-content: center;
+		width: 250px;
+		height: 50px;
+	}
+
+
+	#mainNav
+	{
+		width: 100%;
+	}
+
+	/*Classes*/
+
+	.liNav {
+	  float: right;
+	  height: 50px;
+	}
+
+
+	.liNav .link {
+	  display: block;
+	  color: #666;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  height: 25px;
+	}
+
+
+	.liNav .link:hover {
+	  background-color: #ddd;
+	}
+
+	/*Footer - Style*/
+
+	/*Id's*/
+
+	#mainFooter
+	{
+		margin-top: 20px;
+		padding: 15px;
+		padding-left: 10px;
+		margin-bottom: 0px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+		background-color: #687399;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 25px;
+	}
+
+
+	#footerNav
+	{
+		width: 500px;
+		color: white;
+
+	}
+
+
+	#footerNav h2
+	{
+		font-size: 25px;
+	}
+
+
+	#footerNav a
+	{
+		text-decoration: none;
+		font-size: 25px;
+		color: white;
+	}
+
+
+	#copyRight
+	{
+
+		text-align: center;
+		margin-left: auto;
+		width: 310px;
+	}
+
+	/* Home page */
+
+	/*ID's*/
+
+	#imagecover {
+		width: 100%;
+		height: 900px;
+	}
+
+	#earthimg {
+		margin-top: -200px;
+		margin-left: -50px;
+		width: 45%;
+		height: 850px;
+	}
+
+	#smartphoneimg {
+		margin-left: 58%;
+		margin-top: -675px;
+		width: 45%;
+		height: 1000px;
+	}
+
+	#portfolio {
+		text-align: center;
+		font-weight: bold;
+		font-size: 82px;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	#portfolioleft {
+		margin-top: 5%;
+		width: 70%;
+		border-radius: 15px;
+		margin-left: -25%;
+		border: solid 1px #DDD;
+	}
+
+	#portfolioright {
+		width: 70%;
+		border-radius: 15px;
+		margin-top: -500px;
+		margin-left: 25%;
+		border: solid 1px #DDD;
+	}
+
+	/*Classes*/
+
+	.imagecovertext {
+		margin-top: -900px;
+		padding: 10%;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	.imagecovertext h2 {
+		margin-top: 10%;
+		text-align: center;
+		font-size: 70px;
+		font-weight: bold;
+	}
+
+	.imagecovertext p {
+		margin-top: 20px;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 25%;
+		text-align: center;
+		font-size: 40px;
+		font-weight: lighter;
+	}
+
+	.earthtext{
+		font-family: 'Quicksand', sans-serif;
+		margin-left: 37%;
+		margin-top: -525px;
+		background-color: #A4BCA3;
+	  width: 60%;
+	  height: 400px;
+	  border-radius: 15px;
+	  text-align: center;
+		color: white;
+		margin-bottom: 30px;
+	}
+
+	.earthtext h3 {
+		padding-top: 55px;
+		font-weight: bold;
+		font-size: 50px;
+	}
+
+	.earthtext p {
+		font-weight: lighter;
+		font-size: 40px;
+		padding-top: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.smartphonetext {
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 10%;
+		margin-left: 5%;
+		padding: 10px;
+		background-color: #A4BCA3;
+	  width: 60%;
+	  height: 400px;
+	  border-radius: 15px;
+	  text-align: center;
+		color: white;
+		margin-bottom: 30px;
+	}
+
+	.smartphonetext h3 {
+		padding-top: 85px;
+		font-weight: bold;
+		font-size: 50px;
+	}
+
+	.smartphonetext  p {
+		font-weight: lighter;
+		font-size: 40px;
+		padding-top: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }
