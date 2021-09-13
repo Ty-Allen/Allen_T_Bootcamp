@@ -1,4 +1,4 @@
-![](images/image.jpg) <!--logo/hero image-->
+![](images/hero.jpg) <!--logo/hero image-->
 
 # LushWorld Designs
 *Insert Tagline*
