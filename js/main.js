@@ -11,12 +11,12 @@
         name2: "Baek Jieun",
         role2: "Designer",
         description2: "Born in South Korea and studied in various countries. She majored in Tourism a few years ago. Currently studying interactive design at Fanshawe College in Canada. She is inspired by design based on diverse cultural experiences and she enjoys watching a wide range of movies.",
-        name3: "Insert Team Member 3",
-        role3: "Insert Role Here",
-        description3: "insert description here",
-        name4: "Insert Team Member 4",
-        role4: "Insert Role Here",
-        description4: "insert description here"
+          name3: "Gabriel Eugenio Chavez Portillo",
+        role3: "Web Designer & Front-End Developer",
+        description3: "Gabriel was born and raised in El Salvador after graduating from high school he moved to Canada to study Interactive Media Design where he is currently studying. He loves to play video games and watch movies until the early morning.",
+        name4: "Ashley Cahalan",
+        role4: "Co-Owner & Co-Founder",
+        description4: "Ashley was born and raised in London, ON. After graduating from Western University, she now studies Interactive Media Design at Fanshawe College. Aside from building her skills in digital design and coding and working on creative projects, Ashley enjoys travelling, hiking and long bike rides."
     };
 
     function showBioData() {
