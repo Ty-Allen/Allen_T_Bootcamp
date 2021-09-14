@@ -1,7 +1,7 @@
-![](images/readmehero.jpg) <!--logo/hero image-->
+![](images/readmehero_2.jpg) <!--logo/hero image-->
 
 # LushWorld Designs
-Design Agency
+*Bold Impressions. Global Connections.*
 
 ## Creation. Innovation. Inspiration.
 LushWorld Designs is a design agency that assists businesses in making a powerful first impression and values the importance of global outreach. Through digital, print, branding and product design services, the company strives to combine passion with innovative creation to boldly establish a business’ brand identity and help clients achieve their goals.
@@ -24,8 +24,8 @@ Simply open in your preferred web browser.
 - Logo design created with Adobe Illustrator.
 - Video made with Adobe Premiere.
  
-## Our Inspiration
-<!--Insert blurb of inspiration.-->
+
+
  
 ## License
 MIT
