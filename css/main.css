@@ -290,12 +290,13 @@
 	height: 90%;
 	max-width: 250px;
 	border-radius: 3px;
+	transition: 0.5s;
 }
 
-/* #teamBio img:hover
+#teamBio img:hover
 {
-	border: solid blue 4px;
-} */
+	filter: drop-shadow(5px 5px 5px grey);
+}
 
 #teamtitle{
 	margin-top: 30px;
