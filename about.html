@@ -34,20 +34,23 @@
 				<h2>The Team</h2>
 
 				<div id="topPics">
-					<a href="#lightbox"><img id="memberOne" src="images/bioTestPic.jpg" alt="photo of team member"></a>
-					<a href="#lightbox"><img id="memberTwo" src="images/bioTestPic.jpg" alt="photo of team member"></a>
+					<a href="#lightbox"><img id="memberOne" data-imageref="0" src="images/teamPic0.jpg" alt="photo of team member"></a>
+					<a href="#lightbox"><img id="memberTwo" data-imageref="1" src="images/teamPic1.jpg" alt="photo of team member"></a>
 				</div>
 				<div id="botPics">
-					<a href="#lightbox"><img id="memberThree" src="images/bioTestPic.jpg" alt="photo of team member"></a>
-					<a href="#lightbox"><img id="memberFour" src="images/bioTestPic.jpg" alt="photo of team member"></a>
+					<a href="#lightbox"><img id="memberThree" data-imageref="2" src="images/teamPic2.jpg" alt="photo of team member"></a>
+					<a href="#lightbox"><img id="memberFour" data-imageref="3" src="images/teamPic3.jpg" alt="photo of team member"></a>
 				</div>
 			</section>
 			<section class="lightbox" id="lightbox">
 		      <a href="#" class="close">X</a>
-		    <div>
-					<img src="images/bioTestPic.jpg" alt="photo of team member">
-		      <h2>Team Member Name</h2>
-					<p>Insert Bio Info Here</p>
+		    <div id="bioInfo">
+					<img src="images/teamPic0.jpg" id="lightBoxPic" alt="photo of team member">
+					<div id="bioInfoText">
+						<h2>Team Member Name</h2>
+						<h3>Team Member Role</h3>
+						<p>Insert Bio Info Here</p>
+					</div>
 		    </div>
 		  </section>
 		</main>
