@@ -4,12 +4,86 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 		<title>Contact</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<!-- Content goes here -->
+		<div id=container>
+			<header id="mainHeader">
+				<div id="logo">
+						<img src="images/home/Logo.png" width="45" height="45" alt="Logo">
+				</div><!--end logo-->
+				<nav id="mainNav">
+					<h2 class="hidden">Main Navigation</h2>
+						<ul id="navBar">
+							<li class="liNav"><a class="link" href="portfolio.html">Portfolio</a></li>
+							<li class="liNav"><a class="link" href="#">Contact</a></li>
+							<li class="liNav"><a class="link" href="about.html">About</a></li>
+							<li class="liNav"><a class="link" href="index.html">Home</a></li>
+						</ul>
+				</nav>
+			</header>
 
+			<img id="contactimg" src="images/contact/contact.png" alt="contact image">
+			<div class="contactcontainer">
+				<section id=meetus>
+						<h3>Meet Us</h3>
+						<img class="contacticons" src="images/contact/phone.png" alt="phone">
+						<p>+1 519-646-3297</p>
+						<img class="contacticons" src="images/contact/email.png" alt="phone">
+						<p>contact@lushworld.ca</p>
+						<img class="contacticons" src="images/contact/map.png" alt="phone">
+						<p>3269 Baker Street, London, ON N0N 0N0</p>
+				</section>
+
+				<section id=form>
+						<h3>Pitch Us</h3>
+						<div class="upperformc">
+							<form class="upperForm" action="form.php" method="post" name="upperForm">
+								<div class="uuf">
+									<label for="Fname">First Name:</label>
+									<input type="text" name="Fname" id="Fname">
+								</div>
+								<div class="buf">
+									<label for="Lname">Last Name:</label>
+									<input type="text" name="Lname" id="Lname">
+								</div>
+							</form>
+						</div>
+						<div class="bottomFormc">
+							<form class="bottomForm" action="form.php" method="post" name="bottomForm">
+									<div class="emailc">
+										<label for="Email">Email:</label>
+										<input type="text" name="Email" id="Email">
+									</div>
+
+									<div class="messagec">
+										<label for="Message">Message:</label>
+										<input type="text" name="Message" id="Message">
+									</div>
+							</form>
+						</div>
+						<div class="btn">
+								<button class="btnMessage">
+										Send Message
+								</button>
+						</div><!--end bottomForm-->
+				</section>
+			</div>
+
+			<footer id="mainFooter">
+					<h2 class="hidden">Footer</h2>
+					<div id="footerNav">
+							<h3 class="hidden">Map Site</h3>
+							<p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="portfolio.html">Portfolio</a></p>
+					</div><!--end FooterNav-->
+					<div id="copyRight"><p> &copy; LushWorld 2021 </p></div><!--end Copyright-->
+			</footer><!--end mainFooter-->
+		</div>
 		<script src="js/main.js"></script>
 	</body>
 </html>
