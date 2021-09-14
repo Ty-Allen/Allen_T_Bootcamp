@@ -83,7 +83,7 @@
 
 #mainFooter
 {
-	margin-top: 20px;
+	margin-top: 0px;
 	padding: 15px;
 	padding-left: 10px;
 	margin-bottom: 0px;
@@ -290,6 +290,167 @@
 	margin: 50px auto;
 }
 
+/* CONTACT PAGE */
+
+/*ID's*/
+
+#contactimg {
+	width: 100%;
+	height: 100px;
+}
+
+#meetus {
+	font-family: 'Quicksand', sans-serif;
+	margin-top: -5px;
+	height: 300px;
+	width: 100%;
+	background-color: #7EA07C;
+	color: white;
+}
+
+#meetus h3 {
+	font-size: 23px;
+	font-weight: bold;
+	margin-left: 9%;
+	padding-top: 20%;
+}
+
+#meetus p {
+	font-size: 15px;
+	font-weight: lighter;
+	margin-left: 17%;
+	margin-right: 5%;
+	margin-top: -22px;
+}
+
+#form {
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	flex-direction: column;
+	background-color: #202542;
+	color: white;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#form h3 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/*CLASSES*/
+
+.contacticons {
+	margin-top: 5%;
+	margin-left: 9%;
+	width: 25px;
+	height: 25px;
+}
+
+.upperForm {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bottomForm{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.uuf{
+	display: flex;
+	flex-direction: column;
+}
+
+.uuf label {
+	margin-left: 2px;
+}
+
+.uuf input {
+	height: 20px;
+	margin: 5px;
+	color: #fff;
+	text-align: left;
+	margin-left: 1px;
+	margin-right: 1px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 80%;
+}
+
+.buf{
+	display: flex;
+	flex-direction: column;
+}
+
+.buf label {
+	margin-left: 2px;
+}
+
+.buf input {
+	width: 80%;
+	height: 20px;
+	margin: 5px;
+	color: #fff;
+	text-align: left;
+	margin-left: 1px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+
+.messagec label{
+	margin-left: 10px;
+}
+
+.messagec input{
+	height: 60px;
+	margin: 5px;
+	color: #fff;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 1px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+}
+
+
+.emailc label{
+	margin-left: 10px;
+}
+
+.emailc input{
+	height: 20px;
+	margin: 5px;
+	color: #fff;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 1px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+}
+
+.btnMessage{
+	height: 20px;
+	margin: 5px;
+	color: black;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 40px;
+	background-color: #fff;
+	width: 50%;
+	margin-bottom: 20px;
+	text-align: center;
+}
 
 /* PORTFOLIO PAGE*/
 
@@ -478,7 +639,7 @@
 
 	#mainFooter
 	{
-		margin-top: 20px;
+		margin-top: 0px;
 		padding: 15px;
 		padding-left: 10px;
 		margin-bottom: 0px;
@@ -1383,13 +1544,13 @@
 		font-size: 40px;
 		text-align: center;
 		font-family: 'Quicksand', sans-serif;
-		height: 600px;
+		height: 900px;
 		width: 100%;
 	}
 
 	.portfolioimg img {
 		width: 100%;
-		height: 600px;
+		height: 900px;
 		margin-top: 0px;
 	}
 
@@ -1421,7 +1582,7 @@
 	}
 
 	.portfoliohero h3 {
-		margin-top: -200px;
+		margin-top: -250px;
 		margin-bottom: 30px;
 	}
 
@@ -1430,19 +1591,19 @@
 		font-size: 40px;
 		text-align: center;
 		font-family: 'Quicksand', sans-serif;
-		height: 400px;
+		height: 600px;
 		width: 100%;
 	}
 
 	.portfolioimg img {
 		width: 100%;
-		height: 400px;
+		height: 600px;
 		margin-top: 0px;
 	}
 
 	.portfolioimg h3 {
 		margin-bottom: 40px;
-		margin-top: -220px;
+		margin-top: -320px;
 	}
 
 	.black {
