@@ -249,6 +249,48 @@
 	padding-right: 20px;
 }
 
+/* About Page */
+.lightbox
+{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* opened lightbox */
+.lightbox:target
+{
+	display: block;
+}
+
+/* close button */
+
+.lightbox .close
+{
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-size: 30px;
+	font-family: arial, sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.lightbox div
+{
+	background-color: white;
+	width: 50%;
+	height: 80%;
+	margin: 50px auto;
+}
+
+
 /*TABLET LAYOUT*/
 
 @media screen and (min-width: 1023px) {
@@ -493,6 +535,7 @@
 		padding-left: 50px;
 		padding-right: 50px;
 	}
+
 }
 
 /*DESKTOP LAYOUT*/

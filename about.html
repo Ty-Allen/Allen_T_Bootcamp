@@ -8,34 +8,57 @@
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<h1 class="hidden">About Page</h1>
 		<!-- Content goes here -->
 		<!-- Basic Content Outline -->
-		<h2>Who We Are<h2>
-			<p>At LushWorld Designs, we believe that great design cannot happen without imagination, intelligence, dedication and passion. We are a team of creative, passionate and energetic individuals who understand the power of collaboration. Through our services we are committed to helping you develop and implement creative and meaningful solutions to allow your business to grow and come to life.<p>
-		<h2>Services we offer are:<h2>
-			<ul>Digital Design<ul>
-			<ul>Print Design<ul>
-			<ul>Branding Design<ul>
-			<ul>Product Design<ul>
+		<header id="mainHeader">
+			<div id="logo">
+					<img src="images/home/Logo.png" width="45" height="45" alt="Logo">
+			</div><!--end logo-->
+			<nav id="mainNav">
+				<h2 class="hidden">Main Navigation</h2>
+					<ul id="navBar">
+						<li class="liNav"><a class="link" href="portfolio.html">Portfolio</a></li>
+						<li class="liNav"><a class="link" href="contact.html">Contact</a></li>
+						<li class="liNav"><a class="link" href="#">About</a></li>
+						<li class="liNav"><a class="link" href="index.html">Home</a></li>
+					</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="aboutIntro">
+				<h2>Who We Are</h2>
+					<p>At LushWorld Designs, we believe that great design cannot happen without imagination, intelligence, dedication and passion. We are a team of creative, passionate and energetic individuals who understand the power of collaboration. Through our services we are committed to helping you develop and implement creative and meaningful solutions to allow your business to grow and come to life.</p>
+			</section>
+			<section id="teamBio">
+				<h2>The Team</h2>
 
-		<h2>The Team<h2>
-
-			<h3>Ty Allen<h3>
-			<p>Co-Owner & Co-Founder<p>
-
-			<h3>Gabriel Chavez Portillo<h3>
-			<p>Co-Owner & Co-Founder<p>
-
-			<h3>Jieun Baek<h3>
-			<p>Co-Owner & Co-Founder<p>
-
-			<h3>Ashley Cahalan<h3>
-			<p>Co-Owner & Co-Founder<p>
-			<p>Ashley was born and raised in London, ON. After graduating from Western University, she now studies Interactive Media Design at Fanshawe College. Aside from building her skills in digital design and coding and working on creative projects, Ashley enjoys travelling, hiking and long bike rides.<p>
-
-
-
-
+				<div id="topPics">
+					<a href="#lightbox"><img id="memberOne" src="images/bioTestPic.jpg" alt="photo of team member"></a>
+					<a href="#lightbox"><img id="memberTwo" src="images/bioTestPic.jpg" alt="photo of team member"></a>
+				</div>
+				<div id="botPics">
+					<a href="#lightbox"><img id="memberThree" src="images/bioTestPic.jpg" alt="photo of team member"></a>
+					<a href="#lightbox"><img id="memberFour" src="images/bioTestPic.jpg" alt="photo of team member"></a>
+				</div>
+			</section>
+			<section class="lightbox" id="lightbox">
+		      <a href="#" class="close">X</a>
+		    <div>
+					<img src="images/bioTestPic.jpg" alt="photo of team member">
+		      <h2>Team Member Name</h2>
+					<p>Insert Bio Info Here</p>
+		    </div>
+		  </section>
+		</main>
+		<footer id="mainFooter">
+			<h2 class="hidden">Footer</h2>
+			<div id="footerNav">
+				<h3 class="hidden">Map Site</h3>
+				<p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="portfolio.html">Portfolio</a></p>
+			</div><!--end FooterNav-->
+			<div id="copyRight"><p> &copy; LushWorld 2021 </p></div><!--end Copyright-->
+		</footer>
 
 		<script src="js/main.js"></script>
 	</body>
