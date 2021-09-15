@@ -279,6 +279,25 @@
 	height: 200px;
 }
 
+#teamBio {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+#teamBio img {
+	width: 250px;
+	height: 90%;
+	max-width: 250px;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#teamBio img:hover
+{
+	filter: drop-shadow(5px 5px 5px grey);
+}
+
 #teamtitle{
 	margin-top: 30px;
 	margin-bottom: 20px;
@@ -294,7 +313,9 @@
 }
 
 #topPics {
-	margin-left: 60px;
+	display: inline;
+	width: 250px;
+	margin: 0 auto;
 }
 
 #topPics img {
@@ -302,7 +323,9 @@
 }
 
 #botPics {
-	margin-left: 60px;
+	display: inline;
+	width: 250px;
+	margin: 0 auto 30px;
 }
 
 #botPics img {
@@ -345,9 +368,42 @@
 .lightbox div
 {
 	background-color: white;
+	width: 80%;
+	height: 90%;
+	margin: 35px auto;
+}
+
+#bioInfo
+{
+	display: flex;
+	flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#bioInfo img
+{
+	max-width: 200px;
 	width: 50%;
-	height: 80%;
-	margin: 50px auto;
+	height: 60%;
+	margin: 30px auto 10px;
+	border-radius: 3px;
+}
+
+#bioInfoText
+{
+	margin: 0 auto 5px;
+}
+
+#bioInfoText h2
+{
+	font-size: 1.5em;
+}
+
+#bioInfoText h3
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1em;
 }
 
 /* CONTACT PAGE */
@@ -908,7 +964,10 @@
 	}
 
 	#topPics {
-		margin-left: 180px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 80%;
 	}
 
 	#bold {
@@ -917,18 +976,20 @@
 	}
 
 	#topPics img {
-		margin-top: 20px;
-		margin-left: 60px;
+		margin-top: 0px;
+		margin-bottom: 20px;
 	}
 
 	#botPics {
-		margin-left: 180px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 80%;
 		margin-bottom: 50px;
 	}
 
 	#botPics img {
-		margin-top: 20px;
-		margin-left: 60px;
+		margin-top: 30px;
 	}
 
 	/*CLASSES*/
@@ -967,9 +1028,44 @@
 	.lightbox div
 	{
 		background-color: white;
-		width: 50%;
-		height: 80%;
+		width: 80%;
+		height: 70%;
 		margin: 50px auto;
+	}
+
+	#bioInfo
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#bioInfo img
+	{
+		margin-top: 75px;
+		margin-left: 50px;
+	}
+
+	#bioInfoText
+	{
+		margin-top: 75px;
+		margin-left: 50px;
+		margin-right: 20px;
+	}
+
+	#bioInfoText h2
+	{
+		font-size: 3em;
+	}
+
+	#bioInfoText h3
+	{
+		font-size: 1.5em;
+	}
+
+	#bioInfoText p
+	{
+		font-size: 1em;
+		line-height: 22px;
 	}
 
 
@@ -1558,23 +1654,17 @@
 		text-align: center;
 	}
 
-	#topPics {
-		margin-left: 600px;
-	}
-
 	#topPics img {
-		margin-top: 20px;
-		margin-left: 60px;
+		margin-bottom: 20px;
 	}
 
 	#botPics {
-		margin-left: 600px;
+		margin-top: 20px;
 		margin-bottom: 50px;
 	}
 
 	#botPics img {
 		margin-top: 20px;
-		margin-left: 60px;
 	}
 
 	/*CLASSES*/
@@ -1611,13 +1701,23 @@
 		text-decoration: none;
 	}
 
-	.lightbox div
+	#bioInfoText h2
 	{
-		background-color: white;
-		width: 50%;
-		height: 80%;
-		margin: 50px auto;
+		font-size: 3.5em;
+		margin-bottom: 10px;
 	}
+
+	#bioInfoText h3
+	{
+		font-size: 2.5em;
+		margin-bottom: 10px;
+	}
+
+	#bioInfoText h3
+	{
+		font-size: 1.8em;
+	}
+
 
 	/* CONTACT PAGE */
 
