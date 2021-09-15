@@ -1,7 +1,12 @@
 (() => {
 
     const teamPictures = document.querySelectorAll("#teamBio img"),
-          bioPic = document.querySelector("#lightBoxPic");
+          vid = document.querySelector("#video video"),
+          bioPic = document.querySelector("#lightBoxPic"),
+          playButton = document.querySelector('#play'),
+          pauseButton = document.querySelector('#pause'),
+          restartButton = document.querySelector('#restart'),
+          volumeSlider = document.querySelector('#volumeSlider');
 
           // fill in your bio info for a name, role and description
     let team = {
@@ -54,6 +59,32 @@
         // let imageRef = this.dataset.imageref;
         console.log("This image is image #", imageRef);
     };
+
+    function pauseVideo() {
+      vid.pause();
+    }
+
+    function playVideo() {
+      vid.play();
+    }
+
+    function restartVideo() {
+      vid.currentTime = 0;
+    }
+
+    function setVolume() {
+      vid.volume = volumeSlider.value / 100;
+    }
+
+    function vidControls() {
+      vid.controls = false;
+    }
+
+    vidControls();
+    pauseButton.addEventListener('click', pauseVideo);
+    playButton.addEventListener('click', playVideo);
+    restartButton.addEventListener('click', restartVideo);
+    volumeSlider.addEventListener("change", setVolume);
 
     teamPictures.forEach(button => button.addEventListener("click", showBioData));
 })();
