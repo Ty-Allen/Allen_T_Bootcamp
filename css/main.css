@@ -1088,6 +1088,7 @@
 	{
 		margin-top: 75px;
 		margin-left: 50px;
+		max-width: 233px;
 	}
 
 	#bioInfoText
@@ -1758,9 +1759,10 @@
 		margin-bottom: 10px;
 	}
 
-	#bioInfoText h3
+	#bioInfoText p
 	{
-		font-size: 1.8em;
+		font-size: 1.5em;
+		line-height: 26px;
 	}
 
 
